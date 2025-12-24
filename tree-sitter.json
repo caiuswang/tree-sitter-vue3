@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "version": "0.7.0",
+    "description": "vue grammars for tree-sitter",
+    "links": {
+      "repository": "https://github.com/tree-sitter-grammars/tree-sitter-xml"
+    },
+    "authors": [
+      {
+        "name": "ObserverOfTime",
+        "email": "chronobserver@disroot.org",
+        "url": "https://observeroftime.github.io/"
+      },
+      {
+        "name": "Amaan Qureshi",
+        "email": "amaanq12@gmail.com"
+      }
+    ]
+  },
+  "grammars": [
+    {
+      "name": "vue",
+      "camelcase": "VUE",
+      "scope": "source.VUE",
+      "file-types": [
+        "vue"
+      ],
+      "injection-regex": "^(vue)$",
+      "highlights": "queries/xml/highlights.scm",
+      "path": "vue",
+      "external-files": [
+        "src/parser.c",
+        "src/scanner.cc"
+      ]
+    }
+  ],
+  "bindings": {
+    "go": false,
+    "swift": false
+  }
+}
