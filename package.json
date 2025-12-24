@@ -1,5 +1,5 @@
 {
-  "name": "tree-sitter-vue3",
+  "name": "tree-sitter-vue",
   "version": "1.0.0",
   "description": "",
   "main": "bindings/node",

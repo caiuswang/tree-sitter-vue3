@@ -1,10 +1,10 @@
 [package]
-name = "tree-sitter-vue3"
-description = "vue3 grammar for the tree-sitter parsing library"
+name = "tree-sitter-vue"
+description = "vue grammar for the tree-sitter parsing library"
 version = "0.0.5"
-keywords = ["incremental", "parsing", "vue3"]
+keywords = ["incremental", "parsing", "vue"]
 categories = ["parsing", "text-editors"]
-repository = "https://github.com/xiaoxin-sky/tree-sitter-vue3"
+repository = "https://github.com/xiaoxin-sky/tree-sitter-vue"
 edition = "2018"
 license = "MIT"
 

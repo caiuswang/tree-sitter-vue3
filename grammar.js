@@ -1,5 +1,5 @@
 module.exports = grammar({
-  name: "vue3",
+  name: "vue",
   externals: ($) => [
     $._text_fragment,
     $._interpolation_text,
