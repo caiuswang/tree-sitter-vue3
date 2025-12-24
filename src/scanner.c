@@ -4,11 +4,7 @@
 
 #include "./tree_sitter_html/scanner.cc"
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
-void *tree_sitter_vue_external_scanner_create() {
+void *tree_sitter_vue_external_scanner_create(void) {
   return scanner_new();
 }
 
@@ -60,7 +56,3 @@ bool tree_sitter_vue_external_scanner_scan(void *payload, TSLexer *lexer, const 
   }
   return scanner_scan((Scanner *)payload, lexer, valid_symbols);
 }
-
-#ifdef __cplusplus
-}
-#endif
